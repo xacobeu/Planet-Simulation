@@ -195,9 +195,9 @@ public class PlanetRenderer {
 				public void invoke(long window, int key, int scancode, int action, int mods) {
 					if (key >= 0 && key < keyStates.length) {
 						if (action == GLFW_PRESS) {
-							keyStates[key] = true; // Key is pressed
+							keyStates[key] = true;
 						} else if (action == GLFW_RELEASE) {
-							keyStates[key] = false; // Key is released
+							keyStates[key] = false;
 						}
 					}
 				}

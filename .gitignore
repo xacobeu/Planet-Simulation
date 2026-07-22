@@ -10,3 +10,6 @@ buildNumber.properties
 
 # VS Code
 .vscode/*
+
+# ImGui
+imgui.ini

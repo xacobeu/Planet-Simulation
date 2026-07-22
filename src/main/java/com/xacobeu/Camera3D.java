@@ -199,4 +199,8 @@ public class Camera3D {
 	public float getCameraSpeed() {
 		return cameraSpeed;
 	}
+
+	public void setFirstMouse(boolean firstMouse) {
+		this.firstMouse = firstMouse;
+	}
 }

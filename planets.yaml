@@ -1,0 +1,45 @@
+# 2D Simulation Space
+objects2D:
+  - x: centerX
+    y: centerY
+    radius: 20
+    mass: 1.98e30
+    color: YELLOW
+  - x: centerX
+    y: centerY + 100
+    radius: 10
+    mass: 5.97e24
+    color: BLUE
+    vx: 2
+  - x: centerX
+    y: centerY + 200
+    radius: 10
+    mass: 5.97e24
+    color: GREEN
+    vx: 1
+
+# 3D Simulation Space
+objects3D:
+  - x: 0
+    y: 0
+    z: 0
+    radius: 20
+    mass: 1.98e30
+    color: YELLOW
+    isSun: true
+  - x: 0
+    y: 100
+    z: 0
+    radius: 10
+    mass: 5.97e24
+    color: GREEN
+    isSun: false
+    vx: 2
+  - x: 100
+    y: 0
+    z: 100
+    radius: 10
+    mass: 5.97e24
+    color: DARK_GRAY
+    isSun: false
+    vx: 2
